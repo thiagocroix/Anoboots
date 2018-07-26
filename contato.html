@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/estilo.css" type="text/css">
+	<title>Contatos | Anoobots</title>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="oqueeanoobots.html">O que é?</a>
+			</li>
+			<li>
+				<a href="utilidades.html">Utilidades</a>
+			</li>
+			<li>
+				<a href="downloads.html">Downloads</a>
+			</li>
+			<li>
+				<a href="servicos.html">Serviços</a>
+				<ul>
+					<li>
+						<a href="manutencao.html">Manutenção</a>
+					</li>
+					<li>
+						<a href="cursos.html">Cursos</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="faq.html">FAQ</a>
+			</li>
+			<li>
+				<a href="sobre.html">Sobre</a>
+			</li>
+			<li>
+				<a href="contato.html">Contato</a>
+			</li>
+		</ul>
+	</nav>
+	<header>
+		<img src="img/Logo.png" alt="Logo">
+		<h1>Anoobots</h1>
+	</header>
+	<section>
+		<article>
+			<h1>Contato</h1>
+			<!-- Começa apagando,inserindo e adaptando aqui: -->
+			<p>Aqui voc&ecirc; encontra nossa localiza&ccedil;&atilde;o e uma forma de entrar em contato conosco de um forma simples
+				e din&acirc;mica. A qualquer momento você poderá entrar nos enviar uma mensagem pelo formulário abaixo, lembrando que
+				a resposta é enviada ao seu e-mail, então verifique regularmente sua caixa de entrada e seu lixo eletrônico.
+			</p>
+
+			<a href="https://www.google.com.br/maps/place/Alameda+Cauaxi,+244+-+Alphaville+Industrial,+Barueri+-+SP/@-23.4940625,-46.8516364,18z/data=!3m1!4b1!4m2!3m1!1s0x94cf023981d35163:0x97b7b048ff4be0a7?hl=pt-BR"
+			 title="Veja no mapa" target="_blank">
+				<img id="mapa" src="mapa.png">
+			</a>
+
+			<form action="contato.html" method="post">
+
+				Nome:
+				<input type="text" required name="txtnome" pattern="[A-Z\s]+$" placeholder="Seu nome com letra maiúscula " title="Preencha o Campo com letras maiúscula "
+				 size="70">
+				<br> Endere&ccedil;o:
+
+				<input type="text" required name="txtnome" pattern="[a-z\s]+$" title="Preencha o Campo" size="70">
+				<br> Cidade:
+				<input type="text" required name="txtnome" pattern="[a-z\s]+$" title="Preencha o Campo com uma cidade" size="50"> Estado:
+
+				<select name="Estado">
+					<option value="AC">Acré</option>
+					<option value="AL">Alagoas</option>
+					<option value="AM">Amazonas</option>
+					<option value="AP">Amapá</option>
+					<option value="BA">Bahia</option>
+					<option value="CE">Ceará</option>
+					<option value="ES">Espirito Santo</option>
+					<option value="GO">Goias</option>
+					<option value="MA">Maranhão</option>
+					<option value="MG">Mato gerais</option>
+					<option value="MS">Mato Grosso do Sul</option>
+					<option value="MT">Mato Grosso</option>
+					<option value="PA">Pará</option>
+					<option value="PB">Paraíba</option>
+					<option value="PE">Pernambuco</option>
+					<option value="PI">Piauí</option>
+					<option value="PR">Paraná</option>
+					<option value="RJ">Rio de Janeiro</option>
+					<option value="RN">Rio grande do Norte</option>
+					<option value="RS">Rio grande do Sul</option>
+					<option value="RO">Rondônia</option>
+					<option value="RR">Roraima</option>
+					<option value="SC">Santa Catarina</option>
+					<option value="SE">Sergipe</option>
+					<option value="SP">São Paulo</option>
+					<option value="TO">Tocantis</option>
+				</select>
+				<br> Sexo:
+				<input type="radio" name="grupo1" id="radio"> Masculino
+				<input type="radio" name="grupo1" id="radio" checked>Feminino
+				<br> Email:
+
+				<input type="email" required placeholder="nome@email.com" name="txtEmail" title="Preencha o Campo" size="70">
+				<br> Assunto:
+				<input type="text" required name="txtNome" pattern="[a-z\s]+$" title="Preencha o Campo" size="70" placeholder="Digite o Assunto">
+				<br>
+				<br> Mensagem:
+				<textarea cols="70" rows="5" name="txtMsg" required title="Escreva sua mensagem" placeholder="Digite sua Mensagem"></textarea>
+				<br>
+				<input type="submit" value="Enviar" name="btEnviar">
+
+			</form>
+			<h3>
+				<img src="telefone.png" id="icone"> SAC:(11) 4009-9004</h3>
+			<!-- Fim da edição -->
+		</article>
+	</section>
+	<footer>
+		<p>Samsarah &copy; Todos os Direitos Reservados.</p>
+	</footer>
+</body>
+
+</html>
